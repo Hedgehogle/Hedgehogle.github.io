@@ -1,16 +1,21 @@
+body{
+    padding:0;
+    
+}
 #navbar{
-    background-color: red;
+    background-color: transparent;
     font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
-    font-weight: 100;
+    font-weight: 500;
     font-style: normal;
     display: flex;
     flex-direction: row-reverse;
     align-items: center;
     padding: 1rem;
+    box-shadow: 0px 15px 50px gray;
 }
 .menu, .end{
-    color: #ebebeb;
+    color: black;
     text-decoration: none;
 }
 .menu{
@@ -24,6 +29,12 @@
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
   /* To Control Weight use a value from 100 to 900 */
-  font-weight: 200;
+  font-weight: 800;
   font-style: normal;
+}
+
+#header_image{
+    background-image: url(IMG_0918.JPG);
+    width:100vw;
+    height:500px;
 }
