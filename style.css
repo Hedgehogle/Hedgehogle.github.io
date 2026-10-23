@@ -1,5 +1,6 @@
 body{
     padding:0;
+    margin:0
     
 }
 #navbar{
@@ -35,6 +36,36 @@ body{
 
 #header_image{
     background-image: url(IMG_0918.JPG);
-    width:100vw;
-    height:500px;
+    width:98.8vw;
+    height:600px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: bottom;
+}
+
+.contentBox{
+    /* Have short fade in animation */
+    width:250px;
+    height:300px;
+}
+
+#parent{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 98.8vw;
+    height: 0px;
+    background-color: greenyellow;
+    justify-content: space-around;
+    transform: translate(0px,75px);
+}
+
+#contentBox1{
+    background-color: red;
+}
+#contentBox2{
+    background-color: blue;
+}
+#contentBox3{
+    background-color: green;
 }
