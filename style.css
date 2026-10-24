@@ -1,5 +1,5 @@
 body{
-    background-color: rgba(87, 204, 153, 1);
+    background-color: rgb(240, 248, 255);
     font-optical-sizing: auto;
     font-family: "Inter", sans-serif;
     /* To Control Weight use a value from 100 to 900 */
@@ -10,15 +10,17 @@ body{
 }
 
 #navbar{
-    background-color: red;
-    width:98.8vw;
-    height:0px
+    background-color: rgba(96, 130, 182, .98);
     font-optical-sizing: auto;
     font-style: normal;
     align-items: center;
     padding: 1rem;
     position: fixed;
-    justify-content: left;
+    text-align: center;
+    top:0;
+    z-index: 1000;
+    width:100%;
+    height:30px;
 }
 .menu, .end{
     color: black;
@@ -41,12 +43,12 @@ body{
 
 #header_image{
     background-image: url(IMG_0918.JPG);
-    width:98.8vw;
+    width:100%;
     height:600px;
     background-repeat: no-repeat;
     background-size: cover;
     background-position-y: bottom;
-    filter: blur(2px);
+    filter: blur(3px);
 }
 
 .contentBox{
@@ -59,7 +61,7 @@ body{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    width: 98.8vw;
+    width: 100%;
     height: 0px;
     background-color: greenyellow;
     justify-content: space-around;
@@ -78,16 +80,15 @@ body{
 
 #bottomBox{
     background-color: rgba(34, 87, 122, 1);
-    width: 98.8vw;
+    width: 100vw;
     height: 200px;
     transform: translate(0px,1000px);
 }
 
 /*
 Color Pallet 
-baltic-blue: rgba(34, 87, 122, 1);
-tropical-teal: rgba(56, 163, 165, 1);
-emerald: rgba(87, 204, 153, 1);
-light-green: rgba(128, 237, 153, 1);
-tea-green: rgba(199, 249, 204, 1); 
+Text 17, 17, 17
+Bottom of Page 25, 25, 112
+Accent 96, 130, 182
+Background 240, 248, 255
 */
