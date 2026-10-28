@@ -11,17 +11,12 @@ body{
 
 #navbar{
     background-color: rgba(96, 130, 182, .98);
-    font-optical-sizing: auto;
-    font-style: normal;
-    align-items: center;
-    padding: 1rem;
-    position: fixed;
-    text-align: center;
-    top:0;
-    z-index: 1000;
-    width:100%;
-    height:30px;
-}
+    position:fixed;
+    flex-direction: column;
+    width: 15%;
+    height: 100vh;
+    }
+
 .menu, .end{
     color: black;
     text-decoration: none;
@@ -34,24 +29,37 @@ body{
 }
 
 .font{
-  font-family: "Inter", sans-serif;
-  font-optical-sizing: auto;
-  /* To Control Weight use a value from 100 to 900 */
-  font-weight: 800;
-  font-style: normal;
+    font-family: "Mona Sans", sans-serif;
+    font-optical-sizing: auto;
+    /* To Control Weight use a value from 100 to 900 */
+    font-weight: 100;
+    font-style: normal;
+    font-variation-settings:"wdth" 100;
 }
 
 #home_header_image{
     background-image: url(IMG_0918.JPG);
-    width:auto;
-    height:700px;
+    width:85%;
+    height:100vh;
+    margin-left: auto;
     background-repeat: no-repeat;
     background-size: cover;
     background-position-y: bottom;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
 
 .title{
-    font-size: 5rem;
+    font-size: 15rem;
+    text-align: center;
+    font-family: "Mona Sans", sans-serif;
+    font-optical-sizing: auto;
+    /* To Control Weight use a value from 100 to 900 */
+    font-weight: 350;
+    font-style: normal;
+    font-variation-settings:"wdth" 100;
 }
 
 @keyframes fadeIn{
