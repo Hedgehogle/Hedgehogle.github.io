@@ -10,9 +10,49 @@ body{
     margin:0
 }
 
+@keyframes fadeIn{
+    0%{
+        opacity:0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+#item1{
+    opacity: 0;
+    animation-name: fadeIn;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+
+#item2{
+    opacity: 0;
+    animation-name: fadeIn;
+    animation-delay: 1s;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+
+#item3{
+    opacity: 0;
+    animation-name: fadeIn;
+    animation-delay: 2s;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+
+#item4{
+    opacity: 0;
+    animation-name: fadeIn;
+    animation-delay: 3s;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+
 #fixedNavbar{
     position:fixed;
-    width:15%;
+    width:20%;
     height:100vh;
 }
 
@@ -41,7 +81,7 @@ body{
 }
 
 .headerImage{
-    width:85%;
+    width:80%;
     height:100vh;
     margin-left: auto;
     background-repeat: no-repeat;
@@ -65,8 +105,8 @@ body{
     background-image: url(Photos/Home/IMG_0918.JPG);
 }
 
-#animalsHeaderImage{
-    background-image: url(Photos/Home/IMG_0918.JPG);
+#natureHeaderImage{
+    background-image: url(Photos/Nature/IMG_9506.JPG);
 }
 
 .title{
@@ -74,15 +114,6 @@ body{
     text-align: center;
     /* To Control Weight use a value from 100 to 900 */
     font-weight: 350;
-}
-
-@keyframes fadeIn{
-    0%{
-        opacity:0;
-    }
-    100%{
-        opacity: 1;
-    }
 }
 
 .contentBox{
@@ -98,12 +129,13 @@ body{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    width: 85%;
+    width: 80%;
     height: 0px;
     background-color: greenyellow;
     justify-content: space-around;
     margin-left: auto;
     transform: translate(0px,100px);
+    font-weight: 400;
 }
 
 #contentBox1{
