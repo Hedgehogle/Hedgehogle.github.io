@@ -29,7 +29,7 @@ body{
 #item2{
     opacity: 0;
     animation-name: fadeIn;
-    animation-delay: 1s;
+    animation-delay: .5s;
     animation-duration: 1s;
     animation-fill-mode: forwards;
 }
@@ -37,7 +37,7 @@ body{
 #item3{
     opacity: 0;
     animation-name: fadeIn;
-    animation-delay: 2s;
+    animation-delay: 1s;
     animation-duration: 1s;
     animation-fill-mode: forwards;
 }
@@ -45,7 +45,7 @@ body{
 #item4{
     opacity: 0;
     animation-name: fadeIn;
-    animation-delay: 3s;
+    animation-delay: 1.5s;
     animation-duration: 1s;
     animation-fill-mode: forwards;
 }
@@ -73,6 +73,10 @@ body{
     margin-right:0;
     font-weight: 500;
 }
+
+a:hover{
+        font-weight: 900;
+    }
 
 #groupName{
     font-size: 2rem;
@@ -121,6 +125,11 @@ body{
     height: 400px;
 }
 
+#isaiahPhoto{
+    width: 484px;
+    height: 400px;
+}
+
 
 #parent{
     display: flex;
@@ -135,13 +144,22 @@ body{
 }
 
 #contentBox1{
-    background-color: red;
+    background-image: url(Photos/Thrive/IMG_3742.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 #contentBox2{
-    background-color: blue;
+    background-image: url(Photos/Friends/IMG_2955.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 #contentBox3{
-    background-color: green;
+    background-image: url(Photos/Nature/IMG_9553.JPG);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .caption{
